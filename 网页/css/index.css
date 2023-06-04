@@ -1,0 +1,124 @@
+body{
+    background-color: white;
+}
+#logo{
+    float: left;
+}
+#title{
+    background-color:coral;
+    text-align: left;
+    height: 80px;
+}
+/*设置float浮动布局，logo浮动于h1，h2左，text-align设置文本位置为左*/
+header h1{
+    padding: 5px;
+    font-size: medium;
+    font-weight: bold;
+}
+header h2{
+    font-size: small;
+    margin-left: 4em;
+}
+#daohanglan{
+    clear: both;
+}
+#guide1{
+    background-color: #000;
+    height: 50px;
+    overflow: hidden;
+}
+#hangnei {
+    float: right;
+    color: white;
+    padding: 14px 16px;
+}
+header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: left;
+}
+header li{
+    float: left;
+}
+header li a{
+    display: block;
+    width: 60px;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/*列表本身相对浮动在left左
+列表中的项各自浮动在左
+列表项带超链接，display：block分块，属于盒模型布局
+*/
+header li a:hover {
+    background-color:#555;
+}
+/*设置点击时：hover背景颜色*/
+header div img{
+    width: 80px;
+    height: 80px;
+}
+#main{
+    text-align: left;
+    padding: 20px 0 0 10px;
+    overflow: hidden;
+}
+#guide{
+	position: fixed;
+	right:0px;
+    bottom: 0;
+    height: 80%;
+	color:#000;
+	width :15%;
+	background: white;
+	text-align: center;
+}
+/*固定边栏guide于距离右边0像素位置，下边0位置，
+高为页面80%，宽为也页面15%，属于定位布局
+*/
+#mainContent{
+    width: 85%;
+    background-color: #f1f1f1;
+    float: left;
+}
+#main ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+ 
+#main li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+ 
+/* 鼠标移动到选项上修改背景颜色 */
+#main li a:hover {
+    background-color: #555;
+    color: white;
+}
+/*页脚元素，将自身置于下方，border-top加上方分割线*/
+footer{
+    border-top: 1px solid;
+    clear: both;
+}
+footer div{
+    text-align: center;
+    width: 85%;
+}
+#maincontent{
+    width: 80%;
+}
+#biaodan{
+    text-align: center;
+}
+table{
+    display: inline-block;
+}

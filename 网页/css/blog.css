@@ -1,0 +1,115 @@
+body{
+    background-color: white;
+}
+#logo{
+    float: left;
+}
+#title{
+    background-color:coral;
+    text-align: left;
+    height: 80px;
+}
+header h1{
+    padding: 5px;
+    font-size: medium;
+    font-weight: bold;
+}
+header h2{
+    font-size: small;
+    margin-left: 4em;
+}
+#daohanglan{
+    clear: both;
+}
+#guide1{
+    background-color: #000;
+    height: 50px;
+    overflow: hidden;
+}
+#hangnei {
+    float: right;
+    color: white;
+    padding: 14px 16px;
+}
+header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: left;
+}
+header li{
+    float: left;
+}
+header li a{
+    display: block;
+    width: 60px;
+    color: aliceblue;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+header li a:hover {
+    background-color: #555;
+}
+#logo{
+    color: aquamarine;
+}
+header div img{
+    width: 80px;
+    height: 80px;
+}
+#main{
+    text-align: left;
+    padding: 20px 0 0 10px;
+    overflow: hidden;
+}
+#guide{
+	position: fixed;
+	right:0px;
+    bottom: 0;
+    height: 80%;
+	color:#000;
+	width :15%;
+	background: white;
+	text-align: center;
+}
+#mainContent{
+    width: 85%;
+    background-color: #f1f1f1;
+    float: left;
+}
+#main ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+ 
+#main li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+ 
+/* 鼠标移动到选项上修改背景颜色 */
+#main li a:hover {
+    background-color: #555;
+    color: white;
+}
+footer{
+    border-top: 1px solid;
+    clear: both;
+}
+footer div{
+    text-align: center;
+    width: 85%;
+}
+#zhaiyao{
+    padding: 2px;
+}
+.text{
+    line-height: 30px;
+    font-size: larger;
+}
